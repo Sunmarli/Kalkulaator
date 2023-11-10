@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net6.0-android31.0": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -244,6 +273,18 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -1997,6 +2038,35 @@
       }
     },
     "net6.0-android31.0/android-arm": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -2225,6 +2295,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -3978,6 +4060,35 @@
       }
     },
     "net6.0-android31.0/android-arm64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -4206,6 +4317,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -5959,6 +6082,35 @@
       }
     },
     "net6.0-android31.0/android-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -6187,6 +6339,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -7940,6 +8104,35 @@
       }
     },
     "net6.0-android31.0/android-x86": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -8168,6 +8361,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -9921,6 +10126,35 @@
       }
     },
     "net6.0-android31.0/iossimulator-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -10149,6 +10383,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -11902,6 +12148,35 @@
       }
     },
     "net6.0-android31.0/maccatalyst-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -12130,6 +12405,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -13883,6 +14170,35 @@
       }
     },
     "net6.0-android31.0/win10-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.9.0.1": {
         "type": "package",
         "compile": {
@@ -14114,6 +14430,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -15867,6 +16195,35 @@
       }
     },
     "net6.0-ios16.1": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16087,6 +16444,18 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16134,6 +16503,35 @@
       }
     },
     "net6.0-ios16.1/android-arm": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16340,6 +16738,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16387,6 +16797,35 @@
       }
     },
     "net6.0-ios16.1/android-arm64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16593,6 +17032,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16640,6 +17091,35 @@
       }
     },
     "net6.0-ios16.1/android-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16846,6 +17326,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16893,6 +17385,35 @@
       }
     },
     "net6.0-ios16.1/android-x86": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -17099,6 +17620,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -17146,6 +17679,35 @@
       }
     },
     "net6.0-ios16.1/iossimulator-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -17352,6 +17914,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -17399,6 +17973,35 @@
       }
     },
     "net6.0-ios16.1/maccatalyst-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -17607,6 +18210,18 @@
           "build/Microsoft.Web.WebView2.targets": {}
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17652,6 +18267,35 @@
       }
     },
     "net6.0-ios16.1/win10-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -17863,6 +18507,18 @@
           "build/Microsoft.Web.WebView2.targets": {}
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17908,6 +18564,35 @@
       }
     },
     "net6.0-maccatalyst16.1": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -18130,6 +18815,18 @@
           }
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -18175,6 +18872,35 @@
       }
     },
     "net6.0-maccatalyst16.1/android-arm": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -18381,6 +19107,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -18428,6 +19166,35 @@
       }
     },
     "net6.0-maccatalyst16.1/android-arm64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -18634,6 +19401,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -18681,6 +19460,35 @@
       }
     },
     "net6.0-maccatalyst16.1/android-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -18887,6 +19695,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -18934,6 +19754,35 @@
       }
     },
     "net6.0-maccatalyst16.1/android-x86": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -19140,6 +19989,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -19187,6 +20048,35 @@
       }
     },
     "net6.0-maccatalyst16.1/iossimulator-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -19393,6 +20283,18 @@
         },
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -19440,6 +20342,35 @@
       }
     },
     "net6.0-maccatalyst16.1/maccatalyst-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -19648,6 +20579,18 @@
           "build/Microsoft.Web.WebView2.targets": {}
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -19693,6 +20636,35 @@
       }
     },
     "net6.0-maccatalyst16.1/win10-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -19904,6 +20876,18 @@
           "build/Microsoft.Web.WebView2.targets": {}
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -19949,6 +20933,35 @@
       }
     },
     "net6.0-windows10.0.19041": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -20304,6 +21317,18 @@
           }
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -20341,6 +21366,35 @@
       }
     },
     "net6.0-windows10.0.19041/android-arm": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -20652,6 +21706,18 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -20691,6 +21757,35 @@
       }
     },
     "net6.0-windows10.0.19041/android-arm64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -21002,6 +22097,18 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -21041,6 +22148,35 @@
       }
     },
     "net6.0-windows10.0.19041/android-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -21352,6 +22488,18 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -21391,6 +22539,35 @@
       }
     },
     "net6.0-windows10.0.19041/android-x86": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -21702,6 +22879,18 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -21741,6 +22930,35 @@
       }
     },
     "net6.0-windows10.0.19041/iossimulator-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -22052,6 +23270,18 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -22091,6 +23321,35 @@
       }
     },
     "net6.0-windows10.0.19041/maccatalyst-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -22404,6 +23663,18 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -22441,6 +23712,35 @@
       }
     },
     "net6.0-windows10.0.19041/win10-x64": {
+      "Antlr4.Runtime.Standard/4.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -22763,6 +24063,18 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "NCalcSync/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.12.0"
+        },
+        "compile": {
+          "lib/net5.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NCalc.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -22801,6 +24113,52 @@
     }
   },
   "libraries": {
+    "Antlr4.Runtime.Standard/4.12.0": {
+      "sha512": "Tz5W0b/wXdX2Q09UyzMn2wJWy9BoCK6HvX7o6jZ+NILs0vGyJU5u/hfPO6tUWgYBT6GOrzdRAz+elomdu4nDtw==",
+      "type": "package",
+      "path": "antlr4.runtime.standard/4.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antlr4.runtime.standard.4.12.0.nupkg.sha512",
+        "antlr4.runtime.standard.nuspec",
+        "lib/net45/Antlr4.Runtime.Standard.dll",
+        "lib/net45/Antlr4.Runtime.Standard.xml",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.dll",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.xml"
+      ]
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "sha512": "r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "GoogleGson/2.9.0.1": {
       "sha512": "hztMZzgzX82HUORHX4YHOcfzF7yAOn8dWpXeYcrJa9sjw1qHfFpibrHeiWrk8aKn4C4IO6mBNOuaFiyS6/EOBA==",
       "type": "package",
@@ -23995,6 +25353,22 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "NCalcSync/3.8.0": {
+      "sha512": "Jd1QPNsYJvMS7QBVsvyK+WxMb2WJ2zNJ4mF0NV9n77mH+20t7n4YBpUAmUYzdvXFlAt+soa0f/y/555aZWsAPA==",
+      "type": "package",
+      "path": "ncalcsync/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NCalc.png",
+        "README.md",
+        "lib/net461/NCalc.dll",
+        "lib/net5.0/NCalc.dll",
+        "lib/netstandard2.0/NCalc.dll",
+        "ncalcsync.3.8.0.nupkg.sha512",
+        "ncalcsync.nuspec"
       ]
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -25921,27 +27295,35 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
-      "Microsoft.Maui.Dependencies >= 6.0.548",
-      "Microsoft.Maui.Extensions >= 6.0.548",
-      "Microsoft.UI.Xaml >= 2.8.2"
-    ],
-    "net6.0-ios16.1": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Microsoft.UI.Xaml >= 2.8.2",
+      "NCalcSync >= 3.8.0"
+    ],
+    "net6.0-ios16.1": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
+      "Microsoft.Maui.Dependencies >= 6.0.548",
+      "Microsoft.Maui.Extensions >= 6.0.548",
+      "Microsoft.UI.Xaml >= 2.8.2",
+      "NCalcSync >= 3.8.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst16.1": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Microsoft.UI.Xaml >= 2.8.2",
+      "NCalcSync >= 3.8.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-windows10.0.19041": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Maui.Dependencies >= 6.0.548",
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Microsoft.UI.Xaml >= 2.8.2",
-      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194"
+      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
+      "NCalcSync >= 3.8.0"
     ]
   },
   "packageFolders": {
@@ -26005,6 +27387,10 @@
       "net6.0-android31.0": {
         "targetAlias": "net6.0-android",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.548, )",
@@ -26018,6 +27404,10 @@
           "Microsoft.UI.Xaml": {
             "target": "Package",
             "version": "[2.8.2, )"
+          },
+          "NCalcSync": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           }
         },
         "imports": [
@@ -26111,6 +27501,10 @@
       "net6.0-ios16.1": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.548, )",
@@ -26124,6 +27518,10 @@
           "Microsoft.UI.Xaml": {
             "target": "Package",
             "version": "[2.8.2, )"
+          },
+          "NCalcSync": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -26198,6 +27596,10 @@
       "net6.0-maccatalyst16.1": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.548, )",
@@ -26211,6 +27613,10 @@
           "Microsoft.UI.Xaml": {
             "target": "Package",
             "version": "[2.8.2, )"
+          },
+          "NCalcSync": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -26286,6 +27692,10 @@
       "net6.0-windows10.0.19041": {
         "targetAlias": "net6.0-windows10.0.19041.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.548, )",
@@ -26305,6 +27715,10 @@
             "target": "Package",
             "version": "[10.0.22000.194, )",
             "autoReferenced": true
+          },
+          "NCalcSync": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           }
         },
         "imports": [
