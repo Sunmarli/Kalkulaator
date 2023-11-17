@@ -1,3 +1,4 @@
+C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
@@ -7,6 +8,7 @@ C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\De
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
+C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Technical.otf
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\appicon.ico
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-100.png
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-125.png
@@ -222,6 +224,8 @@ C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\De
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.pdb
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri
+C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Antlr4.Runtime.Standard.dll
+C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -246,6 +250,7 @@ C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\De
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\NCalc.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\WebView2Loader.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
@@ -471,7 +476,6 @@ C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\De
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1222.56807.dll
-C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ucrtbase.dll
@@ -499,6 +503,7 @@ C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\De
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Technical.otf
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png
@@ -576,8 +581,3 @@ C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\De
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Technical.otf
-C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Antlr4.Runtime.Standard.dll
-C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
-C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\NCalc.dll
-C:\Users\Administrator\Documents\GitHub\Kalkulaator\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Technical.otf

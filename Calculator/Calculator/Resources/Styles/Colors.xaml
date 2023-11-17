@@ -6,7 +6,7 @@
 
     <Color x:Key="PrimaryColor">#F7B548</Color>
     <Color x:Key="SecondaryColor">White</Color>
-    <Color x:Key="PageBackground">#16191E</Color>
+    <Color x:Key="PageBackgroundColor">#16191E</Color>
 
     <Color x:Key="BorderColor">#337777</Color>
 
